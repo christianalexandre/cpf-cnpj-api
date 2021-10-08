@@ -1,0 +1,22 @@
+{
+  "name": "projeto29-09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Alexandre",
+  "license": "ISC",
+  "dependencies": {
+    "cpf-cnpj-validator": "^1.0.3",
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.13",
+    "path": "^0.12.7",
+    "puppeteer": "^10.4.0",
+    "sequelize": "^6.6.5"
+  }
+}

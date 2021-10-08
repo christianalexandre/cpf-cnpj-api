@@ -1,0 +1,15 @@
+const path = require('path')
+
+module.exports = {
+  'config': path.resolve('./api/config', 'config.json'),
+  'models-path': path.resolve('./api/sequelize/models'),
+  'seeders-path': path.resolve('./api/sequelize/seeders'),
+  'migrations-path': path.resolve('./api/sequelize/migrations')
+}
+
+/**
+ * npx sequelize-cli model:create --name Usuarios --attributes nome:string,e-mail:string,senha:string (Criar modelo)
+ * npx sequelize-cli db:migrate (Rodar migrações)
+ * npx sequelize-cli seed:generate --name demo-usuario (Criar seed)
+ * npx sequelize-cli db:seed:all (Rodar seeds)
+ */
