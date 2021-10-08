@@ -12,7 +12,7 @@ module.exports = {
                 'Accept-Language': 'pt-br'
             });
             await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36');
-            await page.goto('https://www.situacao-cadastral.com/')
+            await page.goto('http://www.situacao-cadastral.com/')
             await page.keyboard.type(valor)
             await page.keyboard.press('Tab')
             await page.keyboard.press('Enter')    
